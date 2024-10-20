@@ -6,7 +6,7 @@ import TabNavigation from './components/TabNavigation'
 import SearchResults from './components/SearchResults'
 import Watchlist from './components/Watchlist'
 
-const apiKey = '1fd3f84e'
+const apiKey = process.env.NEXT_PUBLIC_API_KEY
 
 type Movie = {
   imdbID: string
